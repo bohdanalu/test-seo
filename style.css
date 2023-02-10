@@ -17,7 +17,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 64px;
 }
 
 h2 {
@@ -50,6 +50,10 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
 }
 
 .contact-link {
@@ -90,9 +94,60 @@ p {
   text-decoration: underline;
 }
 
+.wrap-works {
+  padding-bottom: 50px;
+}
+
+.contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 100px;
+  border-radius: 10px;
+}
+
+.btn.contact-link {
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.socials {
+  gap: 20px;
+}
+
+.socials a {
+  font-size: 18px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 5px 10px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.socials a:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  transition: all 0.2s ease;
+}
+
+.content {
+  text-align: center;
+}
+
+.btn.launch {
+  padding: 10px 25px;
+}
+
+.project-item {
+  height: 600px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
 @media (max-width: 768px) {
   h1 {
-    font-size: 64px;
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
   }
 
   body {
